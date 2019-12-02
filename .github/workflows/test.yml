@@ -17,11 +17,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm test
-      run: npm test
+    - run: npm install
+    - run: npm test
       env:
         CI: true
         TEST_SUITE: test
-    
-#      env: CXX=g++-4.8 TEST_SUITE=coveralls
-#     env: CXX=g++-4.8 TEST_SUITE=lint
