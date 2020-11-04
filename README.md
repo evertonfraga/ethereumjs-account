@@ -4,7 +4,6 @@
   </a>
 </p>
 
-
 # SYNOPSIS
 
 [![NPM Package](https://img.shields.io/npm/v/ethereumjs-account.svg?style=flat-square)](https://www.npmjs.org/package/ethereumjs-account)
